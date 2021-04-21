@@ -16,6 +16,8 @@ git clone https://github.com/goodtft/LCD-show.git
 chmod -R 755 LCD-show
 cd LCD-show
 
+# Hedef repo silinmiş ise bunu kullanın: https://github.com/ny4rlk0/LCD-show.git
+
 #Sürücüyü Yükleme : DİKKAT BU KOMUTU YAZDIĞINIZDA CİHAZ YENİDEN BAŞLAYACAK!
 sudo ./LCD35-show 
 
