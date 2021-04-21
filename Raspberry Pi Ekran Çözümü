@@ -1,0 +1,34 @@
+Ürün bilgisi 3.5" Raspberry LCD
+Driver ILI9486
+Model tft35a
+Dots 320x480
+SKU MPI3501
+Yazılım 2021-03-04-raspios-buster-armhf-full
+-------------------------------
+#Sistemin güncel olduğundan emin olalım
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo reboot
+
+#Ekran Sürücüsü İndirme
+git clone https://github.com/goodtft/LCD-show.git
+chmod -R 755 LCD-show
+cd LCD-show
+
+#Sürücüyü Yükleme : DİKKAT BU KOMUTU YAZDIĞINIZDA CİHAZ YENİDEN BAŞLAYACAK!
+sudo ./LCD35-show 
+
+#Ekran Fix
+sudo nano /boot/config.txt
+En alta ekle.
+
+#90 (yatay_düz), 180, 270 (yatay_ters)
+dtoverlay=tft35a:rotate=270,speed=20000000,fps=20
+
+#Touchpad Fix
+sudo nano /etc/X11/xorg.conf.d/99-calibration.conf
+EndSection hemen üst satırına ekle.
+
+        Option "InvertY" "true"
+        Option "InvertX" "true"
