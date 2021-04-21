@@ -41,4 +41,4 @@ EndSection hemen üst satırına ekle.
 #HDMI çıkışını eski haline getirmek için (Aynı anda hem hdmi hem ekran çalışmıyor. Birini seçmeniz lazım.)
 
 cd LCD-show
-./LCD-hdmi
+sudo ./LCD-hdmi
