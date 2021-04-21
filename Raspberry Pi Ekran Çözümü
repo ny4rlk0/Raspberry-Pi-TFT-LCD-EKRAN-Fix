@@ -4,6 +4,7 @@ Model tft35a
 Dots 320x480
 SKU MPI3501
 Yazılım 2021-03-04-raspios-buster-armhf-full
+Cihaz Raspberry Pi 4B / 4 GB RAM
 -------------------------------
 #Sistemin güncel olduğundan emin olalım
 
