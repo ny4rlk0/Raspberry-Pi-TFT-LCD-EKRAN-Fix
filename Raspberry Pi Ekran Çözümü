@@ -38,7 +38,7 @@ EndSection hemen üst satırına ekle.
         Option "InvertY" "true"
         Option "InvertX" "true"
 
-#HDMI çıkışını eski haline getirmek için
+#HDMI çıkışını eski haline getirmek için (Aynı anda hem hdmi hem ekran çalışmıyor. Birini seçmeniz lazım.)
 
 cd LCD-show
 ./LCD-hdmi
