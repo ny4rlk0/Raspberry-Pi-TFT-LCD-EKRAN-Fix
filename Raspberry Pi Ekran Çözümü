@@ -19,6 +19,8 @@ cd LCD-show
 #Sürücüyü Yükleme : DİKKAT BU KOMUTU YAZDIĞINIZDA CİHAZ YENİDEN BAŞLAYACAK!
 sudo ./LCD35-show 
 
+#Bu adımdan sonrasını sadece ekranı yatay olarak ters çevirmek istiyorsanız yapın!
+
 #Ekran Fix
 sudo nano /boot/config.txt
 En alta ekle.
