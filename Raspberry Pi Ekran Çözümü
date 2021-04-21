@@ -39,5 +39,6 @@ EndSection hemen üst satırına ekle.
         Option "InvertX" "true"
 
 #HDMI çıkışını eski haline getirmek için
+
 cd LCD-show
 ./LCD-hdmi
